@@ -196,10 +196,12 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #F4DDF2;
-  background-image: url("img/pastel.png"); /* fallback */
-  background-image: url("img/pastel.png"), linear-gradient(#E6D6F0, #F6ECF9);
-  background-image: linear-gradient(to right, rgba(250, 218, 233, 1), rgba(206, 220, 249, 1))
-
+  /*background-image: url("img/pastel.png"); !* fallback *!*/
+  /*background-image: url("img/pastel.png"), linear-gradient(#E6D6F0, #F6ECF9);*/
+  /*background-image: linear-gradient(to right, rgba(250, 218, 233, 1), rgba(206, 220, 249, 1))*/
+  background:
+          linear-gradient(to top,rgba(247,235,245,1),rgba(250, 218, 233, 1)),
+          linear-gradient(to right, rgba(250, 218, 233, 1), rgba(206, 220, 249, 1));
 
 }
 
